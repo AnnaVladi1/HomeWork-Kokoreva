@@ -1,0 +1,108 @@
+
+.heading {
+    font-family: 'Lora', serif;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapp {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    color: gray;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-link {
+    margin: 0 20px;
+}
+
+.link {
+    color: darkslategray;
+}
+
+.link:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+
+}
+
+h2 {
+    border-left: 5px solid darkslategray;
+    padding-left: 20px;
+    color: gray;
+    margin-top: 30px;
+}
+li {
+    line-height: 24px;
+}
+
+p {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.img-wrapper img {
+    border: 1px solid darkslategray;
+    width: 100%;
+}
+
+.img-wrapper {
+    padding: 20px;
+    text-align: center;
+    display: inline;
+    width: 342px;
+}
+
+.container {
+    padding: 0 120px;
+}
+
+footer a {
+    color: darkslategray;
+}
+footer a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+footer {
+    margin-left: 20px;
+}
+
+footer > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+footer > div:last-child {
+    margin-bottom: 0;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.icon.phone {
+    background-image: url("img/telephone-2.png");
+}
+
+.icon.email {
+    background-image: url("img/mail.png");
+}
